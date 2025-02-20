@@ -1,0 +1,93 @@
+/* 
+Author: Cameron Clay
+Date: 2/19/25
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+    background-color: #000;  /* Background color set to black */
+    padding: 2%; 
+    font-size: 1.25em;
+}
+
+/* Style rule for header */
+header {
+    width: 25%;
+    float: left;
+}
+
+/* Style rules for navigation area */
+nav {
+    width: 70%;
+    float: right;
+    margin: 5em 3em 0 0;
+}
+
+main {
+    clear: left;
+}
+
+/* Style rules for main content */
+main {
+    clear: left;
+}
+
+/* Style rules for footer content */
+footer p {  
+    font-size: 0.75em;  
+    text-align: center;  
+    color: #fff;  
+    padding: 0 1em;  
+}
+
+footer p a {
+    color: #fff;  
+    text-decoration: none;  
+}
+
+#weights, #cardio, #training {  
+    width: 29%;  
+    float: left;  
+    margin: 0 2%;  
+}
+
+#exercises dt { 
+    font-weight: bold;  
+}
+
+#exercises dd {  
+    margin-left: 1em;  
+}
+
+#contact {  
+    text-align: center;  
+}
+
+#contact a { 
+    color: #666600;  
+    text-decoration: none;  
+}
+
+.action {  
+    font-size: 1.35em;  
+    color: #666600;  
+    font-weight: bold;  
+}
+
+.external-link {  
+    color: #666600;  
+    font-weight: bold; 
+    text-decoration: none;  
+}
+
+.map {
+    border: 8px solid #000; 
+}
